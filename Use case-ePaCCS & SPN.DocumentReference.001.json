@@ -1,0 +1,38 @@
+{
+    "author": [
+        {
+            "display": "Tiff Hodkinson"
+        }
+    ],
+    "content": [
+        {
+            "attachment": {
+                "contentType": "application/fhir+json",
+                "title": "Electronic Palliative Care Co-ordination System Record for SIDeR",
+                "url": "TODO"
+            }
+        }
+    ],
+    "created": "2018-06-28T11:17:51.193Z",
+    "docStatus": "final",
+    "indexed": "2018-06-28T11:17:51.193Z",
+    "masterIdentifier": {},
+    "resourceType": "DocumentReference",
+    "status": "current",
+    "subject": {
+        "display": "MISS SHIRLEY BROWN",
+        "identifier": {
+            "system": "https://fhir.nhs.uk/Id/nhs-number",
+            "value": "4111251994"
+        }
+    },
+    "type": {
+        "coding": [
+            {
+                "code": "SIDER_EPACCS",
+                "display": "Electronic Palliative Care Co-ordination System Record for SIDeR",
+                "system": "http://fhir.blackpear.com/bpc"
+            }
+        ]
+    }
+}
