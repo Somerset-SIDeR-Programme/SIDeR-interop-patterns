@@ -1,14 +1,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="SSCR-Alerts-SnCT" />
   <meta>
-    <versionId value="2" />
-    <lastUpdated value="2019-11-07T13:46:49.136+00:00" />
+    <versionId value="3" />
+    <lastUpdated value="2020-04-17T13:01:00.000+00:00" />
   </meta>
   <url value="http://blackpear.com/STU3/ValueSet/SSCR-Alerts-SnCT" />
-  <version value="1.1.0" />
+  <version value="1.2.0" />
   <name value="SiDER Shared Care Record Alert Types" />
   <status value="draft" />
-  <date value="2019-11-07T00:00:00+00:00" />
+  <date value="2020-04-17T00:00:00+00:00" />
   <publisher value="Black Pear Software Ltd" />
   <description value="A code from the SNOMED Clinical Terminology UK coding system that describes an alert or a flag that highlights specific information about a patient." />
   <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement." />
@@ -18,7 +18,7 @@
       <filter>
         <property value="constraint" />
         <op value="=" />
-        <value value="(195967001 |Asthmatic| OR 281694009 |Finding of at risk OR 416805005 |At risk of variant Creutzfeldt-Jakob disease OR 734351004 |CPE - Carbapenemase-producing Enterobacteriaceae OR 1064311000000109 |Child protection plan OR 52448006|Dementia OR 707087005|At risk of domestic violence OR 1065701000000100|Infection caused by glycopeptide resistant enterococcus OR 225481000|Abusive behaviour OR 764841000000100|Looked after child OR 495021000000105 | Subject of multi-agency public protection arrangements OR 115329001|Methicillin resistant Staphylococcus aureus OR 446413008|Infection caused by Panton-Valentine leucocidin producing Staphylococcus aureus OR 401206008|At risk for deliberate self harm OR 735324008|Treatment escalation plan" />
+        <value value="(195967001 |Asthmatic| OR 281694009 |Finding of at risk OR 416805005 |At risk of variant Creutzfeldt-Jakob disease OR 734351004 |CPE - Carbapenemase-producing Enterobacteriaceae OR 1064311000000109 |Child protection plan OR 52448006|Dementia OR 707087005|At risk of domestic violence OR 1065701000000100|Infection caused by glycopeptide resistant enterococcus OR 225481000|Abusive behaviour OR 764841000000100|Looked after child OR 495021000000105 | Subject of multi-agency public protection arrangements OR 115329001|MRSA test positive OR 312210001|Infection caused by Panton-Valentine leucocidin producing Staphylococcus aureus OR 401206008|At risk for deliberate self harm OR 735324008|Treatment escalation plan" />
       </filter>
     </include>
   </compose>
